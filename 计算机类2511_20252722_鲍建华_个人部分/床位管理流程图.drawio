@@ -1,0 +1,113 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="MHyJilMID8Qo2SFuS7-7">
+    <mxGraphModel dx="827" dy="1170" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="管理员&lt;div&gt;&lt;br&gt;&lt;/div&gt;" 管理员="" tooltip="管理员" id="Q_szIVi2USGS789Pnul2-10">
+          <mxCell parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1">
+            <mxGeometry height="60" width="30" x="70" y="340" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Q_szIVi2USGS789Pnul2-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="床位示意图&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="220" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_szIVi2USGS789Pnul2-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="床位管理" vertex="1">
+          <mxGeometry height="70" width="140" x="274" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_szIVi2USGS789Pnul2-14" edge="1" parent="1" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="120" y="390" as="sourcePoint" />
+            <mxPoint x="280" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_szIVi2USGS789Pnul2-15" edge="1" parent="1" source="Q_szIVi2USGS789Pnul2-10" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="Q_szIVi2USGS789Pnul2-11" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="220" y="420" as="sourcePoint" />
+            <mxPoint x="380" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_szIVi2USGS789Pnul2-16" edge="1" parent="1" source="Q_szIVi2USGS789Pnul2-11" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;" value="&amp;lt;include&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="220" y="420" as="sourcePoint" />
+            <mxPoint x="420" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_szIVi2USGS789Pnul2-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="查询床位列表" vertex="1">
+          <mxGeometry height="70" width="140" x="370" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_szIVi2USGS789Pnul2-22" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="查询客户床位使用详情" vertex="1">
+          <mxGeometry height="70" width="140" x="160" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_szIVi2USGS789Pnul2-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;ul style=&quot;margin: 16px 0px; padding-left: 18px; color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li style=&quot;margin-top: 6px;&quot;&gt;&lt;p class=&quot;ds-markdown-paragraph&quot; style=&quot;margin-top: 0px !important; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;&quot;&gt;&lt;span class=&quot;&quot;&gt;查看床位示意图&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="550" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_szIVi2USGS789Pnul2-25" edge="1" parent="1" source="Q_szIVi2USGS789Pnul2-11" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;entryX=0.66;entryY=0.929;entryDx=0;entryDy=0;entryPerimeter=0;" target="Q_szIVi2USGS789Pnul2-22" value="&amp;lt;include&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="230" y="215" as="sourcePoint" />
+            <mxPoint x="313" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_szIVi2USGS789Pnul2-26" edge="1" parent="1" source="Q_szIVi2USGS789Pnul2-11" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="Q_szIVi2USGS789Pnul2-23" value="&amp;lt;include&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="390" y="275" as="sourcePoint" />
+            <mxPoint x="473" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_szIVi2USGS789Pnul2-27" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="修改床位使用结束时间" vertex="1">
+          <mxGeometry height="70" width="140" x="120" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_szIVi2USGS789Pnul2-28" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="修改床位状态" vertex="1">
+          <mxGeometry height="70" width="140" x="274" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_szIVi2USGS789Pnul2-29" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="床位调换" vertex="1">
+          <mxGeometry height="70" width="140" x="420" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_szIVi2USGS789Pnul2-30" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="添加床位" vertex="1">
+          <mxGeometry height="70" width="140" x="440" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_szIVi2USGS789Pnul2-31" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="删除床位" vertex="1">
+          <mxGeometry height="70" width="140" x="520" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_szIVi2USGS789Pnul2-34" edge="1" parent="1" source="Q_szIVi2USGS789Pnul2-13" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;" target="Q_szIVi2USGS789Pnul2-30" value="&amp;lt;include&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="445" y="466" as="sourcePoint" />
+            <mxPoint x="410" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_szIVi2USGS789Pnul2-35" connectable="0" parent="Q_szIVi2USGS789Pnul2-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="Text" vertex="1">
+          <mxGeometry relative="1" x="0.7576" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_szIVi2USGS789Pnul2-36" edge="1" parent="1" source="Q_szIVi2USGS789Pnul2-13" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="Q_szIVi2USGS789Pnul2-31" value="&amp;lt;include&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="465" y="546" as="sourcePoint" />
+            <mxPoint x="430" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_szIVi2USGS789Pnul2-37" edge="1" parent="1" source="Q_szIVi2USGS789Pnul2-13" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" target="Q_szIVi2USGS789Pnul2-29" value="&amp;lt;include&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="415" y="576" as="sourcePoint" />
+            <mxPoint x="380" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_szIVi2USGS789Pnul2-38" edge="1" parent="1" source="Q_szIVi2USGS789Pnul2-13" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;entryX=0.402;entryY=-0.043;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.555;exitY=1.052;exitDx=0;exitDy=0;exitPerimeter=0;" target="Q_szIVi2USGS789Pnul2-28" value="&amp;lt;include&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="365" y="636" as="sourcePoint" />
+            <mxPoint x="330" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_szIVi2USGS789Pnul2-39" edge="1" parent="1" source="Q_szIVi2USGS789Pnul2-13" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;entryX=0.783;entryY=0.043;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.236;exitY=0.881;exitDx=0;exitDy=0;exitPerimeter=0;" target="Q_szIVi2USGS789Pnul2-27" value="&amp;lt;include&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="315" y="576" as="sourcePoint" />
+            <mxPoint x="280" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_szIVi2USGS789Pnul2-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="床位管理流程图" vertex="1">
+          <mxGeometry height="30" width="130" x="10" y="230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
